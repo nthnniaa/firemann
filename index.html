@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://buatkamu.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" /><script src="https://buatkamu.likeadream.repl.co/script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpng.pngtree.com%2Felement_our%2F20200702%2Fourlarge%2Fpngtree-cartoon-red-fire-truck-illustration-image_2281067.jpg&f=1&nofb=1&ipt=7474f7baef48c0370297621a2c456db23698d405309c30f7e2f2d4834982da9e&ipo=images" type="image/x-icon">
+    <title>To Bombee</title>
+</head>
+<body>
+    <div class="greetings">
+        <span>METT TURU BOMBEE</span>
+    </div>
+    <br>
+    <div class="description">
+        <span>Aku punya hadiah buat bombee nih sebelum turuu....</span>
+    </div>
+    <div class="button">
+        <button>
+            <a href="surprise.html">mau</a>
+        </button>
+    </div>
+    <script>
+        //Audio Link MP3
+        function play() {var audio = new Audio('https://hei.likeadream.repl.co/kopet.mp3');audio.play();audio.loop=true;audio.addEventListener('ended', function() {this.currentTime = 0;this.play();}, false);}         
+      
+      const swals = Swal.mixin({allowOutsideClick: false,});
+      
+      async function kejut(){
+
+      await swals.fire('Kirim pesan ini ke no WhatsApp aku, oke?');
+      window.location = "https://api.whatsapp.com/send?phone=6283816739455&text=Aku udah liat semuanya nih" + "%0A%0A" + "Makasii ya udah ngucapin!";}
+      
+      
+      async function start() {await swals.fire('Halo Bombee ツ');setTimeout(mulai, 900);play();}
+      start();
+      </script>
+</body>
+</html>
